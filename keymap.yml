@@ -1,0 +1,54 @@
+# You can preview the layout here: https://keymap-drawer.streamlit.app
+
+layout:
+  qmk_keyboard: boardsource/microdox/v1
+
+layers:
+  Base:
+  - [Q, W, E, R, T, Y, U, I, O, P]
+  - [{t: A, h: ⌘}, {t: S, h: ⌥}, {t: D, h: ^}, {t: F, h: ⇧}, G, H, {t: J, h: ⇧}, {t: K, h: ^}, {t: L, h: ⌥}, {t: ";", h: ⌘}]
+  - [{t: Z, h: Fun}, {t: X, h: Alt Gr}, C, V, B, N, M, ',', {t: ., h: Alt Gr}, {t: /, h: Fun}]
+  - [{t: Esc, h: Media}, {t: Space, h: Nav}, {t: Tab, h: Mouse}, {t: Enter, h: Sym}, {t: ⌫, h: Num}, {t: ⌦, h: WM}]
+
+  Sym:
+  - ['{', '&', '*', (, '}', '', '', '', '', '']
+  - [':', '$', '%', '^', '+', '', ⇧, ^, ⌥, ⌘]
+  - ['~', '!', '@', '#', '|', '', '', '', Alt Gr, '']
+  - [(, ), _, {type: held}, '', '']
+
+  Num:
+  - [{t: '[', s: '{'}, {t: '7', s: '&'}, {t: '8', s: '*'}, {t: '9', s: '('}, {t: ']', s: '}'}, '', '', '', '', '']
+  - [{t: ';', s: ':'}, {t: '4', s: '$'}, {t: '5', s: '%'}, {t: '6', s: '^'}, {t: '=', s: '+'}, '', ⇧, ^, ⌥, ⌘]
+  - [{t: '`', s: '~'}, {t: '1', s: '!'}, {t: '2', s: '@'}, {t: '3', s: '#'}, {t: '\', s: '|'}, '', '', '', Alt Gr, '']
+  - [{t: ., s: '>'}, {t: '0', s: ')'}, {t: '-', s: '_'}, '', {type: held}, '']
+
+  WM:
+  - ['W Balance', 'D7', 'D8', 'D9', 'W Rotate CW', '', 'Dis ⬅', 'Dis ⬇', 'Dis ⬆', 'Dis ⮕']
+  - ['X Mirror', 'D4', 'D5', {t: "D6", h: ⇧}, 'W Float/Grid', '', {t: W ⬅, h: ⇧}, 'W ⬇', 'W ⬆', 'W ⮕']
+  - ['Y Mirror', 'D1', 'D2', 'D3', 'W max', '', 'W Size ⬅', 'W Size ⬇', 'W Size ⬆', 'W Size ⮕']
+  - ['', 'D ⬅', 'D ⮕', '', '', {t: '', type: held}]
+
+  Mouse:
+  - ['', '', '', '', '', Again, Paste, Copy, Cut, Undo]
+  - [⌘, ⌥, ^, ⇧, '', '', Mouse ⬅, Mouse ⬇, Mouse ⬆, Mouse ⮕]
+  - ['', Alt Gr, '', '', '', '', '', '', '', '']
+  - ['', '', {type: held}, Right Button, Left Button, Middle Button]
+
+  Nav:
+  - ['', '', '', '', '', '', '⌘⌥⬅', '⌘⌥ ⬇', '⌘⌥ ⬆', '⌘⌥ ⮕']
+  - [⌘, ⌥, ^, ⇧, '', {t: "Cps Wrd", s: "Cps Lck"}, Arrow ⬅, Arrow ⬇, Arrow ⬆, Arrow ⮕]
+  - ['', Alt Gr, '', '', '', Ins, Home, Pg Dn, Pg Up, End]
+  - ['', {type: held}, '', Enter, Bckspc, Delete]
+
+  Media:
+  - ['', '', '', '', '','', '', '', '', '']
+  - [⌘, ⌥, ^, ⇧, '', {t: "EP Tog", s: "EP Off"}, Prev, Volume Down, Volume Up, Next]
+  - ['', Alt Gr, '', '', '', '', '', '', '', '']
+  - [{type: held}, '', '', Stop, Play Pause, Mute]
+
+
+  Fun:
+  - [F12, F7, F8, F9, PrtScn SysRq, '', '', '', '', '']
+  - [F11, F4, F5, F6, Scroll Lock, '', ⇧, ^, ⌥, ⌘]
+  - [{t: F10, type: held}, F1, F2, F3, Pause Break, '', '', '', '', {t: '', type: held}]
+  - [App, Space, Tab, '', '', '']

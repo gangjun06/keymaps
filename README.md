@@ -28,17 +28,17 @@ You need to clone zmk firmware and build it or use your own github action.
   
 
 
-
+****
 ## Layout
 
 - Base Layer
+- Symbol
+- Number
+- [Window Manager](##WM)
 - Mouse
-- Nav
-- Media 
-- Sym
-- Num
-- [WM](#WM)
-- Fun
+- Navigation
+- Media
+- Function
 
 'Image here'
 
@@ -73,7 +73,7 @@ You need to clone zmk firmware and build it or use your own github action.
 | W Size ⮕     | Increase window size right | ctrl+F17     |
 |              |                            |              |
 | D ⬅          | Focus to previous desktop  | ctrl+F18     |
-| D ⬆          | Focus to next desktop      | ctrl+F19     |
+| D ⮕          | Focus to next desktop      | ctrl+F19     |
 |              |                            |
 | X Mirror     | Mirror window horizontally | ctrl+alt+F13 |
 | Y Mirror     | Mirror window vertically   | ctrl+alt+F14 |
@@ -87,13 +87,13 @@ You need to clone zmk firmware and build it or use your own github action.
 ### Combo Actions
 | Name              | Description                     | Binding           |
 | ----------------- | ------------------------------- | ----------------- |
-| (shift+) D1       | Move window to desktop 1        | (shift+) F20      |
-| (shift+) D2       | Move window to desktop 2        | (shift+) F13      |
-| (shift+) D3       | Move window to desktop 3        | (shift+) F14      |
-| (shift+) D4       | Move window to desktop 4        | (shift+) F15      |
-| (shift+) D5       | Move window to desktop 5        | (shift+) F16      |
-| (shift+) D6       | Move window to desktop 6        | (shift+) F17      |
-| (shift+) D7       | Move window to desktop 7        | (shift+) F18      |
+| (shift+) D1       | Move window to desktop 1        | (shift+) F13      |
+| (shift+) D2       | Move window to desktop 2        | (shift+) F14      |
+| (shift+) D3       | Move window to desktop 3        | (shift+) F15      |
+| (shift+) D4       | Move window to desktop 4        | (shift+) F16      |
+| (shift+) D5       | Move window to desktop 5        | (shift+) F17      |
+| (shift+) D6       | Move window to desktop 6        | (shift+) F18      |
+| (shift+) D7       | Move window to desktop 7        | (shift+) F19      |
 |                   |                                 |                   |
 | (shift+) W ⬅      | Move window to left             | (shift+) alt+F13  |
 | (shift+) W ⬆      | Move window to up               | (shift+) alt+F14  |
