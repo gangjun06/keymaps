@@ -4,7 +4,7 @@
 - 3x5+3 split
 - Qwerty layout
 - 3x5+3 split keyboard
-- working with mac OS yabai & skhd [Checkout my dotfiles]()
+- working with mac OS yabai & skhd [Checkout my dotfiles](https://github.com/gangjun06/setups/tree/main/dotfiles)
 
 ## Build
 
@@ -122,5 +122,5 @@ You need to clone zmk firmware and build it or use your own github action.
 - [Corne keyboard (36-42 keys)](https://github.com/foostan/crkbd)
 - [Totem keyboard (38 keys)](https://github.com/GEIGEIGEIST/TOTEM)
     - My first split keyboard
-- [My dotfiles](https://github.com/gangjun06/dotfiles)
+- [My dotfiles](https://github.com/gangjun06/setups/tree/main/dotfiles)
 
