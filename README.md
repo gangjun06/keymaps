@@ -40,7 +40,7 @@ You need to clone zmk firmware and build it or use your own github action.
 - Media
 - Function
 
-'Image here'
+![keymap](./keymap.png)
 
 
 

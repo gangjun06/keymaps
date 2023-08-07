@@ -42,7 +42,7 @@ layers:
 
   Media:
   - ['', '', '', '', '','', '', '', '', '']
-  - [⌘, ⌥, ^, ⇧, '', {t: "EP Tog", s: "EP Off"}, Prev, Volume Down, Volume Up, Next]
+  - [⌘, ⌥, ^, ⇧, '', '', Prev, Volume Down, Volume Up, Next]
   - ['', Alt Gr, '', '', '', '', '', '', '', '']
   - [{type: held}, '', '', Stop, Play Pause, Mute]
 
