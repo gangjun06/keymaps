@@ -1,7 +1,6 @@
 # ZMK Keymap for Kangjun's keyboard 
 
 - zmk keymap (based on Miryoku keymap)
-- 3x5+3 split
 - Qwerty layout
 - 3x5+3 split keyboard
 - working with mac OS yabai & skhd [Checkout my dotfiles](https://github.com/gangjun06/setups/tree/main/dotfiles)
